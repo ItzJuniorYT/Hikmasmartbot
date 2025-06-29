@@ -9,7 +9,8 @@ import random
 import datetime
 
 # === CONFIGURATION ===
-BOT_TOKEN = "7583115063:AAG2ZUyTys1oLHeJ17iKNLNayFFjy-y5U7s"
+import os
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 MAX_GPT_REQUESTS = 10
 MAX_IMAGE_REQUESTS = 5
 
