@@ -35,7 +35,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     uid = str(user.id)
     if uid not in users_data:
         users_data[uid] = {"gpt": 0, "image": 0}
-    await update.message.reply_text(f"Salam alaykoum mon frère / ma sœur 🌙
+    await update.message.reply_text("Salam alaykoum mon frère / ma sœur 🌙")
 Je suis HikmaBot, ton assistant intelligent et musulman.
 Envoie-moi une question ou utilise /help pour voir mes fonctions.")
 
